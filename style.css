@@ -1,0 +1,169 @@
+* {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .banner{
+display: flex;
+margin: 0 200px;
+}
+.detials-header{
+   text-align: left;
+}
+.banner-dst{
+   text-align: right;
+} */
+
+.banner {
+   background: url("./images/banner/banner1.png");
+   height: 500px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+
+.about-img {
+   float: right;
+   text-align: center;
+   margin-top: 150px;
+   margin-right: 100px;
+
+}
+
+.about-img h1 {
+   font-size: 40px;
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.about-img p {
+   color: rgb(168, 168, 168);
+   line-height: 22px;
+}
+
+.btn {
+   margin-top: 10px;
+   background: rgb(241, 92, 66);
+   padding: 9px 15px;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   font-weight: bold;
+}
+
+.mid-section {
+   display: flex;
+}
+
+.mid-right {
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.top{
+   margin-top: 20px;
+}
+
+.right-p-icon {
+   color: rgb(14, 218, 106);
+   margin-top: 15px;
+}
+.top-2{
+   margin-top: 10px;
+}
+
+/* skill style */
+.skills-continer {
+   display: flex;
+   gap: 24px;
+}
+
+.skill {
+   background: #ffffff;
+   box-shadow: 0px 6px, rgba(0, 0, 0, 0.06);
+   border-radius: 5px;
+   padding: 30px;
+}
+
+.skill-title {
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.skill-dst {
+   color: #757575;
+}
+
+section {
+   margin-top: 130px;
+}
+
+.section-title {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 150px;
+   font-size: 30px;
+}
+/* image */
+.banner-2{
+   background: url("./images/watch.png");
+   height:300px;
+   width: -80;
+   background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+   background-color: rgb(207, 33, 33);
+   
+}
+   .about-dst{
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 80px;
+      border: #757575;
+   }
+   .btn-2{
+    
+      margin-top: 10px;
+   background: rgb(66, 241, 95);
+   padding: 9px 15px;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   font-weight: bold;
+}
+.future{
+  background: black;
+  display: flex;
+  color: azure;
+}
+.email{
+   margin-left:600px; ;
+   margin-top: 70px;
+   margin-bottom: 10px;
+}
+   .f-detials{
+      margin-left: 20px;
+      margin-top:70px ;
+   }
+   .style-fu{
+      margin-bottom: 10px;
+   }
+   .style-p{
+      margin-top: 7px;
+   }
+   .p-style{
+      margin-bottom: 7px;
+   }
+   .style.s{
+      margin-top: 7px;
+   }
+   .style-btn{
+      margin-bottom: 7px;
+      color: tomato;
+      border-radius: 20px;
+      size: 5px;
+   }
